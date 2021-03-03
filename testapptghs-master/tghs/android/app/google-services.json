@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506256229626",
+    "firebase_url": "https://tghstestfinal-default-rtdb.firebaseio.com",
+    "project_id": "tghstestfinal",
+    "storage_bucket": "tghstestfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506256229626:android:f9e02cc06570a08fbdf543",
+        "android_client_info": {
+          "package_name": "co.test101.tghs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506256229626-taa42qksvda881nvj6sbn9dbphssunct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXJZFx2ADbvQ5sKL8DXkI9kxwxwo9jR1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506256229626-taa42qksvda881nvj6sbn9dbphssunct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
