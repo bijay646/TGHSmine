@@ -65,7 +65,7 @@ class _FinalPlumberRatingScreenState extends State<FinalPlumberRatingScreen> {
               .collection('plumber')
               .doc(plumberid)
               .update(
-          {'rating': double.parse((finalrating).toStringAsFixed(1))});
+          {'rating': finalrating});
               Navigator.pushNamedAndRemoveUntil(context, ListPlumberScreen.id, (r) => false);
               },
           ),

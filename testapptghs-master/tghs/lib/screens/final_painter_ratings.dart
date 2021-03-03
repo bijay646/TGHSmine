@@ -68,7 +68,7 @@ class _FinalPainterRatingScreenState extends State<FinalPainterRatingScreen> {
                     .collection('painter')
                     .doc(painterid)
                     .update(
-                    {'rating': double.parse((finalrating).toStringAsFixed(1))});
+                    {'rating':finalrating});
                 Navigator.pushNamedAndRemoveUntil(context, ListPainterScreen.id, (r) => false);},
             ),
             GestureDetector(
